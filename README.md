@@ -8,7 +8,7 @@ This repository reviews the pros and cons of an experiment in using blockchain a
 - The maximum capacity of data that can be passed into an application call is 3,584 bytes, and at minimum an application call requires 1,000 microAlgo, meaning each byte stored on-chain costs 0.28 microAlgo (0.2790178571428571)
 - The current cost per byte using Algorand as a data storage solution would be $0.0000000754
 - This is roughly 133x to 1,326x cheaper than traditional data storage solutions, and all data is immutable once stored, and does not incur a reccuring cost to the user.
-- Even if Algorand was at $10 and the transaction fee was increased 10x— using Algorand instead could still be up to 3x cheaper.
+- Even if the price of Algorand increased to $10 and the transaction fee was increased 10x to 10,000 microAlgo— using Algorand instead could still be up to 3x cheaper.
   
 # Workflow 
 - A user would deploy their own dedicated smart contract, that has a method to accept data as an application argument.
