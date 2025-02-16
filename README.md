@@ -13,7 +13,7 @@ This repository reviews the pros and cons of an experiment in using blockchain a
 # Workflow 
 - A user would deploy their own dedicated smart contract, that has a method to accept data as an application argument.
 - Assertions are made that only the user may submit transactions
-- An arbitrary amount of data would be broken into chunks of 3226 bytes per application call
+- An arbitrary amount of data would be broken into chunks of 3,584 bytes per application call
 - Labeling could be done in any number of ways, but generally we would have byte prefix' for the file name, round start, and round end, as well as byte-labeling for file start transaction and file end transaction
 - Transactions are submitted for each chunk to the application, and the full data can be can be retrieved in chunks and reconstructed at any time by indexing application-call type transactions to the user's dedicated smart contract's application ID.
 
