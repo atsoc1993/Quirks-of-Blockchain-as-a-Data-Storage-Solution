@@ -21,7 +21,7 @@ This repository reviews the pros and cons of an experiment in using blockchain a
 - The maximum application argument size is 2048 bytes; subtracting the bytes needed for the method argument, this allows us 2042 bytes of storage
 - The maximum note field size is 1024 bytes
 - ~~The maximum foreign accounts reference size is 4 addresses, each at 32 bytes long~~
-- ~~The maximum foreign assets reference size is 8, with a maximum total references set to 8, allowing 4 foreign asset references, each at 8 bytes long~~
+- ~~The maximum foreign assets reference size is 8, with maximum total references set to 8, allowing 4 foreign asset references, each at 8 bytes long~~
 - The maximum box reference size is 8, with a max key size of 64 bytes, a total of 512 bytes
 
 Total Bytes per Transaction: 2048 + 1024 + 512 = 3,584 bytes
@@ -35,6 +35,6 @@ Total Bytes per Transaction: 2048 + 1024 + 512 = 3,584 bytes
 
 # Cons
 - Relay nodes and Indexers are affected as they store the full state of the chain, using blockchain as a data storage solution causes bloat across all hosts— which technically increases the shared storage by several folds.
-- Indexer access is required to inquire for data, although there are free tiers of access available depending on the amount of data API limits may be exceeded
+- Indexer access is required to query for transaction data, although there are free tiers of access available depending on the amount of data API limits may be exceeded
 - There is no current ed25519 to curve25519 key conversion support from current wallet providers, and the user would either need to encrypt their own data or allow us to store a custodial escrow account to encrypt their data for them
 
