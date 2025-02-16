@@ -9,7 +9,7 @@ This repository reviews the pros and cons of an experiment in using blockchain a
 - The current cost per byte using Algorand as a data storage solution would be $0.0000000754
 - This is roughly 133x to 1,326x cheaper than traditional data storage solutions, and all data is immutable once stored, and does not incur a reccuring cost to the user.
 - Even if Algorand was at $10 and the transaction fee was increased 10x— using Algorand instead could still be up to 3x cheaper.
-- 
+  
 # Workflow 
 - A user would deploy their own dedicated smart contract, that has a method to accept data as an application argument.
 - Assertions are made that only the user may submit transactions
