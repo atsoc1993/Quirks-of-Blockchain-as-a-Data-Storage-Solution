@@ -36,5 +36,5 @@ Total Bytes per Transaction: 2048 + 1024 + 512 = 3,584 bytes
 # Cons
 - Relay nodes and Indexers are affected as they store the full state of the chain, using blockchain as a data storage solution causes bloat across all hosts— which technically increases the shared storage by several folds.
 - Indexer access is required to inquire for data, although there are free tiers of access available depending on the amount of data API limits may be exceeded
-- There is no current ed25519 to curve25519 key conversion support from current wallet providers, and the user would either need to encrypt their own data or allow us to have a custodial escrow account to encrypt their data for them
+- There is no current ed25519 to curve25519 key conversion support from current wallet providers, and the user would either need to encrypt their own data or allow us to store a custodial escrow account to encrypt their data for them
 
