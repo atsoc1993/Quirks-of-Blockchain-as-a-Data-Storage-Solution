@@ -2,7 +2,7 @@
 This repository reviews the pros and cons of an experiment in using blockchain as a data storage solution
 
 # Concept
-- On average, current options for data storage solutions on average charge $0.00001 to $0.0001 per byte.
+- On average, current options for data storage solutions on charge $0.00001 to $0.0001 per byte.
 - An Algorand transaction costs 1,000 microAlgo, where each microAlgo is 1/1,000,000th of an Algo.
 - At current price, Algorand is $0.27, meaning 1 microAlgo is equivalent to $0.00000027
 - The maximum capacity of data that can be passed into an application call is 3,584 bytes, and at minimum an application call requires 1,000 microAlgo, meaning each byte stored on-chain costs 0.28 microAlgo (0.2790178571428571)
